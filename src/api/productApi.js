@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "";
+const API_URL = "https://bol.com/api/products";
 
 export const getProducts = async () => {
   const response = await axios.get(API_URL);
@@ -16,7 +16,6 @@ export const addProduct = async (product) => {
 
 export const updateProduct = async (productId, updatedProduct) => {
   // TODO
-  // TEST
 };
 
 export const deleteProduct = async (productId) => {

@@ -15,11 +15,9 @@ export const addProduct = async (product) => {
 };
 
 export const updateProduct = async (productId, updatedProduct) => {
-  await axios.put(`${API_URL}/${productId}`, updatedProduct, {
-    headers: { "Content-Type": "application/json" },
-  });
+  // TODO
 };
 
 export const deleteProduct = async (productId) => {
-  await axios.delete(`${API_URL}/${productId}`);
+  // TODO
 };

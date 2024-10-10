@@ -16,6 +16,7 @@ export const addProduct = async (product) => {
 
 export const updateProduct = async (productId, updatedProduct) => {
   // TODO
+  // TEST
 };
 
 export const deleteProduct = async (productId) => {
